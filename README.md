@@ -20,10 +20,8 @@ Heute habe ich den Unterschied zwischen Eigenschaften und Feldern verstanden. Da
 
 ## 30/08
 
-- [ ] Bei Auftrag 4213 Methoden eines Geheimagentes implementieren
+- [ ] Methodenüberladung 4207
 
-- [ ] Konstruktoren & init Objekte verstehen und...
-
-- [ ] dazu Auftrag 4205 lösen
+- [ ] Erstelle 10 Fragen für Checkliste und überprüfe kanti baden Webseite
 
 - [ ] Falls Zeit übrig ist, Shift Chiffre Programm fertigen, indem dort ein Wert nicht mehr unten null gehen kann.
