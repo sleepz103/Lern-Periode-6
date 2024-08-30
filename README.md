@@ -24,4 +24,4 @@ Heute habe ich den Unterschied zwischen Eigenschaften und Feldern verstanden. Da
 
 - [x] Erstelle 10 Fragen für Checkliste und überprüfe kanti baden Webseite
 
-- [ ] Falls Zeit übrig ist, Shift Chiffre Programm fertigen, indem dort ein Wert nicht mehr unten null gehen kann.
+- [x] Falls Zeit übrig ist, Shift Chiffre Programm fertigen, indem dort ein Wert nicht mehr unten null gehen kann.
