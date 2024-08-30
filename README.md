@@ -20,7 +20,7 @@ Heute habe ich den Unterschied zwischen Eigenschaften und Feldern verstanden. Da
 
 ## 30/08
 
-- [ ] Methodenüberladung 4207
+- [x] Methodenüberladung 4207
 
 - [ ] Erstelle 10 Fragen für Checkliste und überprüfe kanti baden Webseite
 
