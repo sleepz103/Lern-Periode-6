@@ -28,8 +28,11 @@ Heute habe ich am Anfang an zwei Aufträge gearbeitet. Da ich seit letztes Lernp
 
 - [x] Test zu 1715 zu Authentisierung Authentifizierung Autorisierung lösen
 - [ ] Shift Chiffre fertigstellen, indem nun der Schlüssel um eins nach jede Buchstabeübersetzung verschoben wird
-- [x] Auftrag 1712 und 1714 über Zugriffsschutz
+- [x] Auftrag 1712 über Zugriffsschutz
 - [x] Auftrag 1718 Gefährdung
+
+Heute habe ich eher gut gearbeitet. Ich habe zuerst das Thema AAA wiederangeschaut, wiederverstand und konnte den Test lösen. Danach aber habe ich zu viel Zeit gebracht, um verschiedene technische Möglichkeiten auf Zugriffschutz anzuschauen. Der Test habe ich ohne Probleme gelöst, und noch am Ende zur Ähnliche Thema habe ich Gefährdung angeschaut und direkt Test gelöst. Noch kurz vor Ende habe ich wieder Chiffre-Code angeschaut und habe Tipps bekommen, wie ich diesen verbessern kann. (74)
+
 
 
 ## 13/08
