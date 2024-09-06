@@ -26,7 +26,7 @@ Heute habe ich am Anfang an zwei Aufträge gearbeitet. Da ich seit letztes Lernp
 
 ## 06/08
 
-- [ ] Auftrag 1715 zu Authentisierung Authentifizierung Autorisierung lösen
+- [x] Test zu 1715 zu Authentisierung Authentifizierung Autorisierung lösen
 - [ ] Shift Chiffre fertigstellen, indem nun der Schlüssel um eins nach jede Buchstabeübersetzung verschoben wird
 - [ ] Auftrag 1712 und 1714 über Zugriffsschutz
 - [ ] Auftrag 1718 Gefährdung
