@@ -30,3 +30,11 @@ Heute habe ich am Anfang an zwei Aufträge gearbeitet. Da ich seit letztes Lernp
 - [ ] Shift Chiffre fertigstellen, indem nun der Schlüssel um eins nach jede Buchstabeübersetzung verschoben wird
 - [x] Auftrag 1712 und 1714 über Zugriffsschutz
 - [x] Auftrag 1718 Gefährdung
+
+
+## 13/08
+
+- [ ] Funktionen analysieren, was sie wirklich tun und mit einfacheren Methoden ersetzen ( alphabet[] alphabet.IndexOf('a') )
+- [ ] Cesaer Chiffre in eigene Funktion verschieben mit Parametern (string Message, int shift)
+- [ ] Versuche dann in Shift Chiffre um zu wandeln, indem es um das shift und um i verschoben wird
+- [ ] Frage Benutzer nach Verschlüsselten Nachricht und Verschiebung (Optional) und gebe die entschlüsselte Nachricht 
