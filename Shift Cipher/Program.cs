@@ -4,9 +4,11 @@ namespace Shift_Cipher
 {
     internal class Program
     {
+        static string alphabetString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
         static void Main(string[] args)
         {
-            
+
             int shift = 36;
             char letterCiphered;
             char letterDeciphered;
@@ -14,7 +16,7 @@ namespace Shift_Cipher
             int letterDecipheredIndexNum;
 
 
-            
+
             //char[] cipheredMessage = "IZW WOZNCCM FSWHLJX UILR SMHGT WVZXH! DYE DQEVG PMHN HCO NLE TSBUZFLUHA GYGR NKW MMTLV!".ToCharArray();
             //char[] cipheredMessage = "E".ToCharArray();
             char[] cipheredMessage = "DRSC SC K MOCOKB MSZROB KXN SDC UOI SC 36!".ToCharArray();
@@ -30,13 +32,13 @@ namespace Shift_Cipher
                 {
                     //shift cannot be big
                     shift = shift % 26;
-                    letterCipheredIndexNum = FindLetterIndex(letterCiphered);
+                    letterCipheredIndexNum = alphabetString.IndexOf(letterCiphered);
                     letterDecipheredIndexNum = letterCipheredIndexNum - shift;
-                    if (letterDecipheredIndexNum < 0 )
+                    if (letterDecipheredIndexNum < 0)
                     {
                         letterDecipheredIndexNum = letterDecipheredIndexNum + 26;
                     }
-                    letterDeciphered = FindLetterByIndex(letterDecipheredIndexNum);
+                    letterDeciphered = alphabetString[letterDecipheredIndexNum];
                     decipheredMessage += letterDeciphered.ToString();
                 }
                 else
@@ -47,43 +49,7 @@ namespace Shift_Cipher
             }
 
             Console.WriteLine(decipheredMessage);
-            
-        }
 
-        static int FindLetterIndex(char letter)
-        {
-            char[] alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
-            int letterIndex = 0;
-
-            for (int i = 0; i < alphabet.Length; i++ )
-            {
-                if (alphabet[i] == letter)
-                {
-                    letterIndex = i;
-                    break;
-                }
-
-            }
-
-            return letterIndex;
-        }
-
-        static char FindLetterByIndex(int letterIndexNum)
-        {
-            char[] alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
-            char letterByIndex = ' ';
-
-            for (int i = 0; i < alphabet.Length; i++)
-            {
-                if (i == letterIndexNum)
-                {
-                    letterByIndex = alphabet[i];
-                    break;
-                }
-
-            }
-
-            return letterByIndex;
         }
 
     }
