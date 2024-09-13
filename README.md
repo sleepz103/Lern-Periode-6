@@ -36,6 +36,18 @@ Heute habe ich eher gut gearbeitet. Ich habe zuerst das Thema AAA wiederangescha
 ## 13/08
 
 - [x] Funktionen analysieren, was sie wirklich tun und mit einfacheren Methoden ersetzen ( alphabet[] alphabet.IndexOf('a') )
-- [ ] Cesaer Chiffre in eigene Funktion verschieben mit Parametern (string Message, int shift)
-- [ ] Versuche dann in Shift Chiffre um zu wandeln, indem es um das shift und um i verschoben wird
-- [ ] Frage Benutzer nach Verschlüsselten Nachricht und Verschiebung (Optional) und gebe die entschlüsselte Nachricht 
+- [x] Cesaer Chiffre in eigene Funktion verschieben mit Parametern (string Message, int shift)
+- [x] Versuche dann in Shift Chiffre um zu wandeln, indem es um das shift und um i verschoben wird
+- [x] Frage Benutzer nach Verschlüsselten Nachricht und Verschiebung (Optional) und gebe die entschlüsselte Nachricht 
+
+Heute bin ich sehr mit meine Arbeit zufrieden. Ich habe zuerst die Funktionen erstetzt. Das ging leicht, sie waren schon in die C# Sprache eingebaut und sie hatten gleiche Paramater, wie ich geschrieben habe. Dann habe ich Ceaser Chiffre in eigene Funktion verschoben. Ich kopierte die Funktion und umbaute sie als Shift Funktion. Das hat am meisten Zeit gebraucht. Ich habe oft Pausen gemacht und die Schrittweise dargestellt. Danach mit Ausprobierungen habe ich es verstanden und die Nachricht entschlüsselt. Am Ende habe ich Eingaben von Benutzer ermöglicht. (87)
+
+## 20/08
+
+- [ ] Bei Entschlüsselung Programm den Benutzer ermöglichen, Shift einzugeben. Gerade wird die Eingabe ignoriert.
+
+- [ ] Berechne Promille in Promillerechner nach Gleichung in Word Dokument
+
+- [ ] Frage den Benutzer nach seine und seinen Alkohol Daten
+
+- [ ] Erstelle Antworte je nach AlkoholPromill
