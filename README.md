@@ -1,5 +1,5 @@
 # Grobplanung
-  
+
 # 23/08
 
 - [x] Mir zusammenfassen, was die Eigenschaften und Feldern bei OOP bedeuten
@@ -33,11 +33,9 @@ Heute habe ich am Anfang an zwei Aufträge gearbeitet. Da ich seit letztes Lernp
 
 Heute habe ich eher gut gearbeitet. Ich habe zuerst das Thema AAA wiederangeschaut, wiederverstand und konnte den Test lösen. Danach aber habe ich zu viel Zeit gebracht, um verschiedene technische Möglichkeiten auf Zugriffschutz anzuschauen. Der Test habe ich ohne Probleme gelöst, und noch am Ende zur Ähnliche Thema habe ich Gefährdung angeschaut und direkt Test gelöst. Noch kurz vor Ende habe ich wieder Chiffre-Code angeschaut und habe Tipps bekommen, wie ich diesen verbessern kann. (74)
 
-
-
 ## 13/08
 
-- [ ] Funktionen analysieren, was sie wirklich tun und mit einfacheren Methoden ersetzen ( alphabet[] alphabet.IndexOf('a') )
+- [x] Funktionen analysieren, was sie wirklich tun und mit einfacheren Methoden ersetzen ( alphabet[] alphabet.IndexOf('a') )
 - [ ] Cesaer Chiffre in eigene Funktion verschieben mit Parametern (string Message, int shift)
 - [ ] Versuche dann in Shift Chiffre um zu wandeln, indem es um das shift und um i verschoben wird
 - [ ] Frage Benutzer nach Verschlüsselten Nachricht und Verschiebung (Optional) und gebe die entschlüsselte Nachricht 
