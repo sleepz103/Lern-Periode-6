@@ -47,7 +47,7 @@ Heute bin ich sehr mit meine Arbeit zufrieden. Ich habe zuerst die Funktionen er
 - [x] zwei Szenarien für Ignazio erstellen
 - [x] sechs user Stories erstellen
 - [x] Low-Fidelity anfangen (Informationsstruktur mit Bilder und Text, Landing Page, Prozess)
-- [ ] in Tabelle 1 Artefakten Eintragen und Lernjournal erfüllen
+- [x] in Tabelle 1 Artefakten Eintragen und Lernjournal erfüllen
 ---
 
 - [ ] Bei Entschlüsselung Programm den Benutzer ermöglichen, Shift einzugeben. Gerade wird die Eingabe ignoriert.
