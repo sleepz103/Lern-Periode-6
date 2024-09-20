@@ -45,8 +45,8 @@ Heute bin ich sehr mit meine Arbeit zufrieden. Ich habe zuerst die Funktionen er
 ## 20/08
 
 - [x] zwei Szenarien für Ignazio erstellen
-- [ ] sechs user Stories erstellen
-- [ ] Low-Fidelity anfangen (Informationsstruktur mit Bilder und Text, Landing Page, Prozess)
+- [x] sechs user Stories erstellen
+- [x] Low-Fidelity anfangen (Informationsstruktur mit Bilder und Text, Landing Page, Prozess)
 - [ ] in Tabelle 1 Artefakten Eintragen und Lernjournal erfüllen
 ---
 
