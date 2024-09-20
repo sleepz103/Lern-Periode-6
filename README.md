@@ -48,7 +48,7 @@ Heute bin ich sehr mit meine Arbeit zufrieden. Ich habe zuerst die Funktionen er
 - [ ] sechs user Stories erstellen
 - [ ] Low-Fidelity skizzieren
 - [ ] in Tabelle 1 Artefakten Eintragen und Lernjournal erfüllen
-
+---
 
 - [ ] Bei Entschlüsselung Programm den Benutzer ermöglichen, Shift einzugeben. Gerade wird die Eingabe ignoriert.
 
