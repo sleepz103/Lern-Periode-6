@@ -45,15 +45,13 @@ Heute bin ich sehr mit meine Arbeit zufrieden. Ich habe zuerst die Funktionen er
 ## 20/08
 
 - [x] zwei Szenarien für Ignazio erstellen
-- [x] sechs user Stories erstellen
+- [x] sechs User Stories erstellen
 - [x] Low-Fidelity anfangen (Informationsstruktur mit Bilder und Text, Landing Page, Prozess)
 - [x] in Tabelle 1 Artefakten Eintragen und Lernjournal erfüllen
----
+Heute bin ich mit meinem Leistung sehr zufrieden. Zusammen mit Tim haben wir an die LB gearbeitet. Erstens haben wir je eine Szenarie für unsere Persona erstellt. Somit ist es schnell erstellt. Aber dann mussten wir User Stories erfinden, was uns Schwierigkeiten gebracht hat. Dafür haben wir gute Anschaung von Persona und Szenarien gebraucht. Noch bis Ende haben wir noch geschafft, einfache Skizze unsere Webseite zu zeichnen. Dann haben wir unsere Arbeit dokumentiert. (73)
+
+## 27/08 OPL
 
 - [ ] Bei Entschlüsselung Programm den Benutzer ermöglichen, Shift einzugeben. Gerade wird die Eingabe ignoriert.
 
-- [ ] Berechne Promille in Promillerechner nach Gleichung in Word Dokument
-
-- [ ] Frage den Benutzer nach seine und seinen Alkohol Daten
-
-- [ ] Erstelle Antworte je nach AlkoholPromill
+- [ ] Überprüfen, ob das Programm wirklich funktioniert, da ein Shift Schlüssel irgendwie durch Ceaser Decipher Methode entschlüsselt wurde.
