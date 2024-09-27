@@ -1,7 +1,7 @@
 # Fertiges Projekt
 Mein Nebenprojekt dieser Lernperiode war ein erweitertes Caeser-Entschlüsselung Program. Mit C#.
 ![image](images/Enter_message.png)<br>
-Man gibt eine verschlüsselte Nachricht rein.  
+Man gibt eine verschlüsselte Nachricht rein.
 <br>
 ![image](images/Choose_method.png)<br>
 Wählt eine der Methoden.  
@@ -9,6 +9,8 @@ Wählt eine der Methoden.
 ![image](images/Hidden_message.png)<br>
 Zurück bekommt man 26 mögliche Lösungen.
 Sehr simpel
+Das Programm nimmt eine Nachricht mit entweder lowercase oder UPPERCASE. Dann wird die Nachricht in UPPERCASE ausgegeben. Andere zeichnen als in Lateinalphabet werden ignoriert und zu entschlüsselte Nachricht addiert. (rdrhgrm?! wird zu PANCAKES?!)
+
 # Grobplanung
 
 # 23/08
