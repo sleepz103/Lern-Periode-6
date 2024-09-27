@@ -9,7 +9,7 @@ Wählt eine der Methoden.
 ![image](images/Hidden_message.png)<br>
 Zurück bekommt man 26 mögliche Lösungen.<br>
 Sehr simpel<br>
-Das Programm nimmt eine Nachricht mit entweder lowercase oder UPPERCASE. Dann wird die Nachricht in UPPERCASE ausgegeben. Andere zeichnen als in Lateinalphabet werden ignoriert und zu entschlüsselte Nachricht addiert. (rdrhgrm?! wird zu PANCAKES?!)
+Das Programm nimmt eine Nachricht mit entweder lowercase oder UPPERCASE. Dann wird die Nachricht in UPPERCASE ausgegeben. Andere Zeichnen als in Lateinalphabet werden ignoriert und zu entschlüsselte Nachricht addiert. (rdrhgrm?! wird zu PANCAKES?!)
 
 # Grobplanung
 
