@@ -1,12 +1,12 @@
 # Fertiges Projekt
 Mein Nebenprojekt dieser Lernperiode war ein erweitertes Caeser-Entschlüsselung Program. Mit C#.
-![image](images/Enter_message.png)
+![image](images/Enter_message.png)<br>
 Man gibt eine verschlüsselte Nachricht rein.  
 <br>
-![image](images/Choose_method.png)
+![image](images/Choose_method.png)<br>
 Wählt eine der Methoden.  
 <br>
-![image](images/Hidden_message.png)
+![image](images/Hidden_message.png)<br>
 Zurück bekommt man 26 mögliche Lösungen.
 Sehr simpel
 # Grobplanung
