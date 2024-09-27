@@ -1,5 +1,5 @@
 # Fertiges Projekt
-![image](Lern-Periode-6/images/Enter_message)
+![image](images/Enter_message.png)
 
 
 # Grobplanung
