@@ -1,4 +1,5 @@
 # Fertiges Projekt
+
 Mein Nebenprojekt dieser Lernperiode war ein erweitertes Caeser-Entschlüsselung Program. Mit C#.
 ![image](images/Enter_message.png)<br>
 Man gibt eine verschlüsselte Nachricht rein.
@@ -61,10 +62,16 @@ Heute bin ich sehr mit meine Arbeit zufrieden. Ich habe zuerst die Funktionen er
 - [x] sechs User Stories erstellen
 - [x] Low-Fidelity anfangen (Informationsstruktur mit Bilder und Text, Landing Page, Prozess)
 - [x] in Tabelle 1 Artefakten Eintragen und Lernjournal erfüllen
-Heute bin ich mit meinem Leistung sehr zufrieden. Zusammen mit Tim haben wir an die LB gearbeitet. Erstens haben wir je eine Szenarie für unsere Persona erstellt. Somit ist es schnell erstellt. Aber dann mussten wir User Stories erfinden, was uns Schwierigkeiten gebracht hat. Dafür haben wir gute Anschaung von Persona und Szenarien gebraucht. Noch bis Ende haben wir noch geschafft, einfache Skizze unsere Webseite zu zeichnen. Dann haben wir unsere Arbeit dokumentiert. (73)
+  Heute bin ich mit meinem Leistung sehr zufrieden. Zusammen mit Tim haben wir an die LB gearbeitet. Erstens haben wir je eine Szenarie für unsere Persona erstellt. Somit ist es schnell erstellt. Aber dann mussten wir User Stories erfinden, was uns Schwierigkeiten gebracht hat. Dafür haben wir gute Anschaung von Persona und Szenarien gebraucht. Noch bis Ende haben wir noch geschafft, einfache Skizze unsere Webseite zu zeichnen. Dann haben wir unsere Arbeit dokumentiert. (73)
 
 ## 27/08 OPL
 
 - [x] ~Bei Entschlüsselung Programm den Benutzer ermöglichen, Shift einzugeben. Gerade wird die Eingabe ignoriert.~
 
 - [x] Überprüfen, ob das Programm wirklich funktioniert, da ein Shift Schlüssel irgendwie durch Ceaser Decipher Methode entschlüsselt wurde.
+
+Heute habe ich das programm fertiggestellt. Das Programm kann nun irgendeine Nachricht einnehmen. Dann kann der Benutzer Entschlüsselungsverfahren wählen und dann natürlich Lösung bekommen. Ich habe entschieden, dass der Programm soll nach mögliche Verschiebung fragen. Ich fande das unnötig und habe somit Zeit gesparrt. Ich bin zufrieden damit, da es auch wegen falsche Entschlüsselungwahl nicht abstürzen kann.
+
+# Reflexion
+
+Während dieser Lernperiode habe ich an verschiedenen Aufträgen gearbeitet. Ich habe  mir Zeit genommen, um Konzepte aus Modulen zu verstehen oder habe eine grössere Arbeit nachgeholt. Aber auch habe ich auch meistens Zeit gefunden, an diesen Nebenprojekt zu arbeiten. Denn ich mich wirklich mühe gegeben, diesen Problem zu lösen. Mir würde ein Problem gegeben, und ich wollte mir selbst zeigen, dass ich ein Problem logisch lösen kann. Und ich fand, dass ich während dieser Lernperiode effizient gearbeitet habe. Weil dieser Zeit am letzten Tag vor Wochenende fand ich als gut für mich Zeit, um alles nachzuholen und gut zu arbeiten. (100)
