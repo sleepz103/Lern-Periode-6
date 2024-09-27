@@ -52,6 +52,6 @@ Heute bin ich mit meinem Leistung sehr zufrieden. Zusammen mit Tim haben wir an 
 
 ## 27/08 OPL
 
-- [ ] Bei Entschlüsselung Programm den Benutzer ermöglichen, Shift einzugeben. Gerade wird die Eingabe ignoriert.
+- [x] ~Bei Entschlüsselung Programm den Benutzer ermöglichen, Shift einzugeben. Gerade wird die Eingabe ignoriert.~
 
-- [ ] Überprüfen, ob das Programm wirklich funktioniert, da ein Shift Schlüssel irgendwie durch Ceaser Decipher Methode entschlüsselt wurde.
+- [x] Überprüfen, ob das Programm wirklich funktioniert, da ein Shift Schlüssel irgendwie durch Ceaser Decipher Methode entschlüsselt wurde.
