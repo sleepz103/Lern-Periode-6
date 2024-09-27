@@ -1,7 +1,5 @@
 # Fertiges Projekt
-![image](images/Enter_message)
-
-![image](https://github.com/user-attachments/assets/9c325a78-9ba3-485a-890a-f1142424481d)
+![image](Lern-Periode-6/images/Enter_message)
 
 
 # Grobplanung
