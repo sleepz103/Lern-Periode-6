@@ -8,74 +8,71 @@ namespace Shift_Cipher
 
         static void Main(string[] args)
         {
-            bool cipherFlag = true;
-            int shift = 0;
+            bool decipherMethodFlag = true;
             int decipherMethod = 0;
-            string cipheredMessageDefault = "IZW WOZNCCM FSWHLJX UILR SMHGT WVZXH! DYE DQEVG PMHN HCO NLE TSBUZFLUHA GYGR NKW MMTLV!\r\n";
             string cipheredMessageUser;
             
-
-
             Console.WriteLine("Enter ciphered message.");
             cipheredMessageUser = Console.ReadLine();
 
-            Console.WriteLine("Choose between deciphering method. 0 is Ceaser, 1 is shift.");
-            while (cipherFlag)
-            {
-                switch (Convert.ToInt32(Console.ReadLine()))
-                {
-                    case 0:
-                        cipherFlag = false;
-                        decipherMethod = 0;
-                        break;
-                    case 1:
-                        cipherFlag = false;
-                        decipherMethod = 1;
-                        break;
-                    default:
-                        Console.WriteLine("Please choose between 0 and 1");
-                        break;
-
-                }
-            }
-
-
-
-            Console.WriteLine("Enter possible shift. If unknown, default is 0.");
-            while (true)
+            Console.WriteLine("Choose between deciphering method. 1 is Ceaser, 2 is Shift.");
+            while (decipherMethodFlag)
             {
                 try
                 {
-                    shift = Convert.ToInt32(Console.ReadLine());
-                    break;
+                    decipherMethod = Convert.ToInt32(Console.ReadLine());
+                    if (decipherMethod == 1 || decipherMethod == 2)
+                    {
+                        decipherMethodFlag = false;
+                    }
+                    else
+                    {
+                        throw new Exception();
+                    }
                 }
                 catch
                 {
-                    Console.WriteLine("Please re-enter possible shift number.");
+                    Console.WriteLine("Enter 1 for Ceaser deciphering method or 2 for Shift method");
                 }
+            }
 
+            decipherMethodFlag = true;
+            while (decipherMethodFlag)
+            {
+                switch (decipherMethod)
+                {
+                    case 1:
+                        decipherMethodFlag = false;
+                        decipherMethod = 1;
+                        break;
+                    case 2:
+                        decipherMethodFlag = false;
+                        decipherMethod = 2;
+                        break;
+                    default:
+                        Console.WriteLine("Please choose between 1 and 2");
+                        break;
+
+                }
             }
 
             switch(decipherMethod)
             {
-                case 0:
-                    for (int i = 0; i < 26; i++)
-                    {
-                        string decoded = DecodeCeaser(cipheredMessageUser, i);
-                        Console.WriteLine(decoded);
-                    }
-                    break;
                 case 1:
                     for (int i = 0; i < 26; i++)
                     {
+                        string decoded = DecodeCeaser(cipheredMessageUser, i);
+                        Console.WriteLine(i + ". " + decoded);
+                    }
+                    break;
+                case 2:
+                    for (int i = 0; i < 26; i++)
+                    {
                         string decoded = DecodeShift(cipheredMessageUser, i);
-                        Console.WriteLine(decoded);
+                        Console.WriteLine(i + ". " + decoded);
                     }
                     break;
             }
-
-
-
         }
 
         static string DecodeCeaser(string cipheredMessage,int shift)
@@ -85,17 +82,15 @@ namespace Shift_Cipher
             int letterCipheredIndexNum;
             int letterDecipheredIndexNum;
             int a;
-
+            
+            cipheredMessage = cipheredMessage.ToUpper();
             string decipheredMessage = "";
 
             for (int i = 0; i < cipheredMessage.Length; i++)
             {
                 letterCiphered = cipheredMessage[i];
-
-                //decipher letters only
                 if (Char.IsLetter(letterCiphered))
                 {
-                    //shift cannot be big
                     shift = shift % 26;
                     letterCipheredIndexNum = alphabetString.IndexOf(letterCiphered);
                     letterDecipheredIndexNum = letterCipheredIndexNum - shift;
@@ -112,7 +107,6 @@ namespace Shift_Cipher
                     decipheredMessage += letterDeciphered.ToString();
                 }
             }
-
             return decipheredMessage;
         }
 
@@ -125,16 +119,13 @@ namespace Shift_Cipher
             int a = 0;
 
             string decipheredMessage = "";
-            
+            cipheredMessage = cipheredMessage.ToUpper();
+
             for (int i = 0; i < cipheredMessage.Length; i++)
             {
-                
                 letterCiphered = cipheredMessage[i];
-
-                //decipher letters only
                 if (Char.IsLetter(letterCiphered))
                 {
-                    //shift cannot be big
                     shift = shift % 26;
                     letterCipheredIndexNum = alphabetString.IndexOf(letterCiphered);
                     letterDecipheredIndexNum = letterCipheredIndexNum - shift - a;
@@ -151,13 +142,9 @@ namespace Shift_Cipher
                     decipheredMessage += letterDeciphered.ToString();
                     a--;
                 }
-
                 a++;
             }
-
             return decipheredMessage;
         }
-
-
     }
 }
