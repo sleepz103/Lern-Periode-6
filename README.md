@@ -1,6 +1,7 @@
 # Fertiges Projekt
 ![image](images/Enter_message.png)
-
+![image](images/Choose_method.png)
+![image](images/Hidden_message.png)
 
 # Grobplanung
 
